@@ -1,3 +1,16 @@
+const contentful = require('contentful')
+
+const client = contentful.createClient({
+  space: '<space_id>',
+  accessToken: '<content_preview_api_key>',
+  host: 'preview.contentful.com'
+})
+
+client.getEntries()
+.then((response) => console.log(response.items))
+.catch(console.error)
+
+
 let contentfulConfig
 
 try {
