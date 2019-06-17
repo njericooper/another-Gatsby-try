@@ -1,9 +1,9 @@
 const contentful = require('contentful')
 
 const client = contentful.createClient({
-  space: '<space_id>',
-  accessToken: '<content_preview_api_key>',
-  host: 'preview.contentful.com'
+  space: 'pg9a381fka8t',
+  accessToken: '1qsfCgdgmAzVj91PjRSlRxQ18zG9enfbjEhJWMbzg_I',
+
 })
 
 client.getEntries()
