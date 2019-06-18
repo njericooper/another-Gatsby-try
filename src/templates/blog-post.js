@@ -24,6 +24,11 @@ class BlogPostTemplate extends React.Component {
             }}
           >
             {post.publishDate}
+        
+          </p>
+          <p>
+
+            by {post.author.name}
           </p>
           <div
             dangerouslySetInnerHTML={{
@@ -47,6 +52,9 @@ export const pageQuery = graphql`
         sizes(maxWidth: 1180, background: "rgb:000000") {
           ...GatsbyContentfulSizes_withWebp
         }
+      }
+      author {
+        name
       }
       body {
         childMarkdownRemark {
