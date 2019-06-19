@@ -24,7 +24,7 @@ class RootIndex extends React.Component {
        </div>
         <div className="wrapper">
           <h2 className="section-headline">Recent articles</h2>
-          <ul className="article-list">
+          <ul style={{ listStyle: `none`}}>
             {posts.map(({ node }) => {
               return (
                 <li key={node.slug}>

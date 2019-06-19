@@ -7,7 +7,7 @@ import styles from './article-preview-card.css'
 export default ({ article }) => (
   <div className="main-section">
     <div className="card-container" >
-    <Img className="cardImage" alt="" sizes={article.heroImage.sizes}/>
+    <Img className="cardImage" sizes={article.heroImage.sizes}/>
       <div className="card-text-container">
         <span className="card-span"></span>
     <h1 className="article-title">
