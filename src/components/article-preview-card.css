@@ -25,7 +25,7 @@
   justify-content: center;
   margin-right: 1.875em;
   margin-bottom: 1.875em;
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.45);
 }
 
 .article-title {
@@ -93,6 +93,7 @@
   .card-container {
     flex-direction: row;
     width: 100%;
+    
   }
  .cardImage {
     height: 26.25em;
@@ -108,7 +109,10 @@
 
 @media screen and (min-width: 1024px) {
   .card-container {
+    margin-left: 3em;
     max-width: 70vw;
+    box-shadow: 0 .5em 2em rgba(0, 0, 0, 0.45);
+    margin-left: 2.5em;
   }
   .card-text-container {
     min-width: 15em;
