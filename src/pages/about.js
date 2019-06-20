@@ -18,7 +18,7 @@ class AboutIndex extends React.Component {
           About
         </div>
         <div className="wrapper">
-          
+          <h1>{person.name}</h1>
           <h1>
            
           </h1>
